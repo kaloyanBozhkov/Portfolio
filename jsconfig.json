@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["src/*"],
+      "components/*": ["src/components/*"],
+      "templates/*": ["src/templates/*"],
+      "UI/*": ["src/components/UI/*"],
+      "pages/*": ["src/pages/*"],
+      "theme/*":["src/theme/*"],
+      "domains/*":["src/domains/*"],
+      "helpers/*":["src/helpers/*"],
+      "server/*":["server/*"],
+      "lib/*":["lib/*"]
+    }
+  },
+  "exclude": ["node_modules", ".next"]
+}
