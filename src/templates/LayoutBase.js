@@ -7,7 +7,8 @@ const styles = {
         display: 'flex',
         flexDirection: 'column',
         transition: '.3s',
-        h: '100%'
+        h: '100%',
+        background: 'gradient',
     },
     main: {
         flex: 1,
