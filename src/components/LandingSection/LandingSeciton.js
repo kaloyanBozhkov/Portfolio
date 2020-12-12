@@ -9,6 +9,7 @@ const styles = {
         justifyContent: 'flex-start',
         alignItems: 'flex-start',
         h: '100vh',
+        maxWidth: '100%',
         paddingTop: {
             xs: '8rem',
             md: '11.5rem'
@@ -98,7 +99,7 @@ const styles = {
         top: '225px' // 420 / 2 (half of arrow body) + 6 (half of arrow pointer)
     },
     arrowModifierMobile: {
-        left: '25rem',
+        left: '8rem',
     },
     arrowBodyModifier: {
         width: '25rem'
@@ -107,7 +108,7 @@ const styles = {
         width: '5rem'
     },
     arrowBodyStartModifier: {
-        width: '25rem'
+        width: '8rem'
     },
     hideDesktop: {
         display: {
@@ -129,6 +130,9 @@ const styles = {
         color: 'white',
         fontWeight: 'bold',
         gap: '0',
+        maxWidth: '100%',
+        overflow: 'hidden',
+        paddingBottom: '8rem',
         display: {
             xs: 'grid',
             base: 'none'
